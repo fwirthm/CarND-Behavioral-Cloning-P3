@@ -38,7 +38,7 @@ As a basis for the model, NVIDIAs End-to-End-Learning architecture was used (htt
 
 
 <figure>
- <img src="./architecture.svg" width="1100" alt="architecture" />
+ <img src="./Architecture.svg" width="1100" alt="architecture" />
  <figcaption>
  <p></p> 
  <p style="text-align: center;"> Fig. 2.1: Network architecture</p> 
