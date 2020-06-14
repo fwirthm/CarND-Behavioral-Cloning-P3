@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-The project structured is as follows:
+The project is structured as follows:
 
 There are 3 **python** source files
  * `model.py`: this file trains the CNN
