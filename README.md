@@ -14,15 +14,18 @@ The goals / steps of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-The project structured is as follows:
-* There are 3 **python** source files
+The project is structured as follows:
+
+There are 3 **python** source files
  * `model.py`: this file trains the CNN
  * `drive.py`: this file can be called with a trained model as argument to provide the simulation during autonomous mode with steering commands (forked from udacity)
  * `video.py`: this file is a helper assembling several signle images to one video file (forked from udacity)
-* The **folders** are structured as follows:
+ 
+The **folders** are structured as follows:
  * `data` contains images as well as csv files referencing the images and containing steering commands of several training runs
  * `videos` contains screenrecordings showing the whole vehicle for both tracks as well as an video from inside the vehicle driving around track 1 (necessary for the project submission)
-* a few additional files 
+ 
+a few additional files 
  * `get_data.sh` a helper file, which can be used to copy the data used for training from my perdonal GitHub repo to the Udacity workspace
  * `model.h5` the fitted model
  * `architecture.png`, `architecture.svg` the model architecture as png and svg version
